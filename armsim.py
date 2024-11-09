@@ -16,7 +16,6 @@ arm = p.loadURDF("./r_arm/urdf/robot.urdf", basePosition=[0, 0, 0], useFixedBase
 #joint_3 - gripper servo
 target_joint_names = ["joint_0", "joint_1", "joint_2", "joint_3"]
 
-
 # Initialize PyFirmata
 port = 'COM10'  # Update with your Arduino port from the arduino ide
 board = pyfirmata.Arduino(port)
